@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+nav a{
+	color: #000000;
+}
+
+#content .link{
+	color: #ff0000;
+}
+
+.article{
+	margin-bottom: 30px;
+	border-bottom: dashed 2px;
+	padding-bottom: 5px;
+}
+
+.article h3{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.article p{
+	margin: 0;
+}
+
+.article p span{
+	font-weight: bold;
+}
+
+.article>span{
+	font-size: .9em;
+	font-style:italic;
+}

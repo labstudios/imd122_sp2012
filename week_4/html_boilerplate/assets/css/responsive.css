@@ -1,0 +1,66 @@
+/*
+Author: Alfredo Saavedra
+*/
+@media only screen {
+body{
+   
+   -moz-transition: .5s font-size ease-in;
+   -ms-transition: .5s font-size ease-in;
+   transition: .5s font-size ease-in;
+   
+}
+.inside{
+    -webkit-transition: 500ms width ease-in;
+    }
+}
+/*Mobile*//*<<<600px */
+@media only screen and (max-width: 600px) {
+     body {
+        font-size:16px;   
+      }
+}
+/*Mobile*//*>>>600px */    
+@media only screen and (min-width: 600px) {
+    
+     .inside{
+        width: 54em;
+    }
+     body{
+     font-size:13px;  
+    }
+}
+/*<<<990px */
+@media only screen and (max-width: 990px){
+ 
+  
+}
+/*>>>990px */
+@media only screen and (min-width: 990px){
+    
+    body{
+     font-size:18px;  
+    }
+}
+/*>>>1300px */
+@media only screen and (min-width: 1300px) {
+
+body{
+ font-size:20px;   
+}
+}
+/*>>>1600px */
+@media only screen and (min-width: 1600px) {
+
+
+}
+
+/*Ipad*/
+@media (max-device-width:1024px) and (min-width:989px){    
+    body{
+     font-size:18px;
+    }
+    #main-side-panel {
+        overflow-y: scroll;
+    }
+}
+

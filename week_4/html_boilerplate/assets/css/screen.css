@@ -1,0 +1,177 @@
+/*
+Author: Alfredo Saavedra
+Description: Global CSS rules for the site
+*/
+/*COLOURS*/
+/*
+ color: #3369e8  => Blue
+ color: #eeb211  => Yellow
+ color: #d50f25  => Red
+ color: #009925  => Green
+*/
+
+/*GLOBALS*/
+
+html{
+   background:#f5f5f5;
+}
+body{
+	background:#f5f5f5;
+	font-family: 'OpenSansRegular', Arial, sans-serif;
+    letter-spacing: -0.01em;
+	color:#8d8d8d;
+	font-size:18px; /* Everything else should refernece this  XX /18 */
+}
+.inside{
+	margin:0 auto;
+	width: 54em;
+    clear: both;
+}
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.bold{
+    font-weight:bold;
+}
+.v-center{
+	vertical-align: middle;
+    display: table-cell;
+	width: inherit;
+	text-align:center;
+}
+.right{
+	display:block;
+	float:right;
+}
+.left{
+	display:block;
+	float:left;
+}
+
+.main_nav{
+    overflow: auto;
+}
+
+nav > ul {
+	display:block;
+	margin: 0;
+	padding: 0;
+	height:100%;
+}
+nav > ul > li{
+	display:block;
+	float:left;
+	height:100%;
+}
+nav > ul > li > a{
+	text-decoration: none;
+	display: block;
+	padding: 0 0.5em;
+	height: 100%;
+	padding-bottom: 0;
+}
+/*Site Specific*/
+h1, h2, h3, h4 {
+   font-family: 'OpenSansRegular';
+   font-weight:normal;
+   color:#666666;
+}
+
+h1{
+	font-family:'OpenSansLight';
+	font-size:2.22em;
+	
+}
+h2{
+	font-size: 1.388em;	
+}
+
+h2.bold{
+	font-weight:bold;
+}
+
+body.fox-mac h2.bold {
+
+	font-size:1.2em;
+}
+h3{
+	font-size: 1em;
+	font-weight:500;	
+}
+h4{
+	font-size: 0.9em;
+		
+}
+p{
+	line-height: 1.8em;
+
+}
+a,
+a:active,
+a:visited{
+	color: #3369e8;
+	text-decoration:none;
+}
+a:hover{
+	color:#000;	
+}
+input[type="email"], 
+input[type="number"], 
+input[type="password"], 
+input[type="tel"], 
+input[type="text"], 
+input[type="url"] {
+    display: inline-block;
+    height: 2.2em;
+    margin: 0;
+    width:100%;
+    padding: 0 0.5em;
+    background: white;
+    border: 1px solid #D9D9D9;
+    margin-top: 0.3125em;
+    border-top: 1px solid silver;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+
+}
+
+input:invalid, textarea:invalid {
+    
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    
+}
+input.invalid{
+    background-color: #FFBFC8;
+    border-color: red;
+}
+select{
+    padding: 0.3em;
+}
+.quote p{
+    margin-bottom:1em;
+}
+.quote span{
+    font-style: italic;
+    color: #205FCF;
+}
+.error {
+	color: #FF4F63;
+    margin:0;
+    display: block;
+}
+
