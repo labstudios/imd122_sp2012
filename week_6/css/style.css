@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div span{
+	padding: 5px;
+	margin: 10px;
+	display: inline-block;
+}
+
+#cold{
+	width: 150px;
+	height: 250px;
+	background-color: #0000ff;
+}
+
+#hot{
+	background-color: #ff0000;
+	width: 80px;
+	height: 20px;
+	position: relative;
+	top: 15px;
+	left: 12px;
+}
+
+#sunny{
+	background-color: #339999;
+	width: 90px;
+	height: 100px;
+	position: absolute;
+	top: 98px;
+	left: 167px;
+}
+
+#lukewarm{
+	background-color:#FF66CC;
+	width: 80px;
+	height: 90px;
+	position: fixed;
+	top: 0px;
+	left: 250px;
+}
+
+#boxes>div{
+	float: left;
+	padding: 5px;
+	margin: 7px;
+	background-color: #333333;
+	color: #eeeeee;
+}
+
+.clear:after{
+	content: ".";
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
