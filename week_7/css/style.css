@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-size: 15px;
+	font-family: Helvetica, Arial, sans-serif;
+	background: url('../img/waterfall.jpg') no-repeat fixed center;
+}
+
+body>nav, body>section, body>div{
+	background: rgba(255,255,255,.55);
+	width: 960px;
+	margin: 15px auto;
+	padding: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+    border-radius: 10px;
+	-webkit-box-shadow:  5px 5px 3px 0px rgba(0, 0, 0, .3);
+	-moz-box-shadow:  5px 5px 3px 0px rgba(0, 0, 0, .3);
+    box-shadow:  5px 5px 3px 0px rgba(0, 0, 0, .3);
+	/*opacity: .75;*/
+}
+
+h4{
+	background: url('../img/bullet.png') no-repeat left center;
+	padding-left: 18px;
+	margin: 3px 8px;
+}
+
+#sodaflavors{
+	background: url('../img/sodaflavors.png') no-repeat center;
+	text-indent: -50000px;
+}
+
+nav a{
+	color: rgba(0,0,0,.4);
+	text-decoration: none;
+	-webkit-transition-property: color;
+	-webkit-transition-duration: .5s;
+	-moz-transition-property: color;
+	-moz-transition-duration: .5s;
+}
+
+nav a:hover{
+	color: rgba(0,0,0,.99);
+	background: url('../img/underline.png') left bottom repeat-x;
+}
