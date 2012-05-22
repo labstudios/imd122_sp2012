@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+nav ul li{
+	list-style: none;
+}
+
+nav>ul>li{
+	float: left;
+	margin-right: 5px;
+	position: relative;
+}
+
+nav>ul>li ul{
+	padding-left: 0;
+	position: absolute;
+	width: 500px;
+	opacity: 0;
+}
+
+nav>ul>li:hover ul,
+nav>ul>li ul:hover{
+	opacity: 1;
+}
+
+nav>ul>li ul{
+	transition: opacity 0.5s linear;
+	-webkit-transition: opacity 0.5s linear;
+}
+
+nav a{
+	text-decoration: none;
+	color: #666666;
+}
+
+nav a:hover{
+	color: #000000;
+}
+
+nav a{
+	transition: color 0.25s linear;
+	-webkit-transition: color 0.25s linear;
+}
