@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'FjordOne';
+    src: url('../fonts/FjordOne-Regular-webfont.eot');
+    src: url('../fonts/FjordOne-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FjordOne-Regular-webfont.woff') format('woff'),
+         url('../fonts/FjordOne-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/FjordOne-Regular-webfont.svg#FjordOne') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+header{
+	padding: 10px;
+}
+
+header h3{
+	font-family: "FjordOne";
+	font-size: 1.15em;
+	margin-bottom: 0;
+}
+
+header em{
+	font-size: .80em;
+}
+
+article p{
+	text-indent: 30px;
+	line-height: 16px;
+	text-align: left;
+	letter-spacing: 1px;
+	padding: 10px;
+}
+
+
+
+article header + p:first-line{
+	color: #ff0000;
+	font-size: 1.05em;
+	letter-spacing: 2px;
+	font-weight:strong;
+	font-family: "FjordOne";
+}
+
+article p sup{
+	vertical-align: sub;
+	font-size: 1.3em;
+}
